@@ -5,8 +5,13 @@
 
 import scrapy
 
-
-class ScrapeBidsItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+class BidItem(scrapy.Item):
+    name = scrapy.Field()  # Scraped from event bids table
+    run = scrapy.Field()  # Scraped from event bids table
+    description = scrapy.Field()  # Scraped event from bids table
+    amount = scrapy.Field()  # Scraped from event bids table
+    goal = scrapy.Field()  # Scraped from event bids table
+    bid_id = scrapy.Field()  # Additional desired field
+    is_child = scrapy.Field()  # Additional desired field
+    parent_bid_id = scrapy.Field()  # Additional desired field
+    event = scrapy.Field()  # Additional desired field
