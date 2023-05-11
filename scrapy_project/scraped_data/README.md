@@ -1,0 +1,1 @@
+Scraped data will be saved in this folder after the spider crawls the GDQ website.
