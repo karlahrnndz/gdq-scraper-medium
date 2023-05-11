@@ -1,5 +1,5 @@
 # Ignore scraped data
-
+scrapy_project/scraped_data/bids.jsonl
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
